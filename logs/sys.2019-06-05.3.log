@@ -1,0 +1,12 @@
+2019-06-05 10:44:09,669 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 0
+2019-06-05 11:15:10,981 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from loginCase where id = ?; 
+2019-06-05 11:15:11,053 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Integer)
+2019-06-05 11:15:11,092 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-06-05 11:15:13,456 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from loginCase where id = ?; 
+2019-06-05 11:15:13,458 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 2(Integer)
+2019-06-05 11:15:13,462 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-06-05 11:15:13,531 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from addUserCase where id=?; 
+2019-06-05 11:15:13,532 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 201910(Integer)
+2019-06-05 11:15:13,536 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-06-05 11:15:16,782 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from user WHERE password=? AND age=? AND userName=? 
+2019-06-05 11:15:16,785 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 123456(String), 30(Integer), cy888(String)
